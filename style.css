@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Coolvetica_b,Helvetica,sans-serif;
+    
+}
+@media screen and (min-width: 768px) { 
+    nav{
+        display: flex;
+        height: 100vh;
+    }
+    
+    .left-nav{
+        margin-top: 200px;
+        margin-left: 100px;
+        width: 600px;
+    }
+    
+    .left-img img{
+        height: 200px;
+        border-radius: 100px;
+    }
+    
+    .left-text{
+        margin-top: 80px;
+    }
+    
+    .small{
+        font-size: 1.4rem;
+    }
+    
+    .big{
+        font-size: 3rem;
+    }
+    
+    /* right navigation css part */
+    
+    
+    .right-nav{
+        margin-top: 150px;
+        margin-left: 100px;
+    }
+    
+    .right-navigation{
+        display: flex;
+    }
+    .right-navigation li:hover{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: 1s ease;
+        box-shadow: 10px 10px 5px lightblue;
+    }
+    
+    .right-navigation ul{
+        display: flex;
+        padding: 20px;
+        text-align: center;
+        margin-left: 150px;
+    }
+    
+    .right-navigation ul li{
+        list-style: none;
+        padding: 20px;
+    }
+    
+    .right-about{
+       text-align: center;
+       margin-top: 20px;
+       border: 1px solid black;
+       border-radius: 5px;
+       width: 500px;
+       padding: 50px;
+       /* background-image: linear-gradient(to bottom right, rgb(158, 221, 226), rgb(100, 218, 157)); */
+    }
+    /* .right-about:hover{
+        background-image: linear-gradient(to bottom right, rgb(158, 137, 225), rgb(209, 138, 230));
+    } */
+    .right-about p{
+        font-size: 1.2rem;
+    }
+    
+    /* aboutme css */
+    .frist{
+        height: 40vh;
+        background-color: #ffff;
+        
+    }
+    .main-text{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.4rem;
+        font-weight: 400;
+        font-family: Coolvetica_b,Helvetica,sans-serif;
+    }
+    .about{
+        margin: 50px;
+        padding: 10px;
+        width: 800px;
+        margin-top: 100px;
+    }
+    .about-text{
+        margin-top: 80px;
+        padding: 30px;
+    
+    }
+    
+    /* skill css */
+    .sec{
+        height: 40vh;
+        background-color: white;
+    }
+    
+    .main-text2{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.4rem;
+        font-weight: 400;
+        font-family: Coolvetica_b,Helvetica,sans-serif;
+    }
+    
+    .skill{
+        margin: 50px;
+        padding: 10px;
+        width: 800px;
+        margin-top: 70px;
+    }
+    
+    .skill-text{
+        margin-top: 40px;
+        margin-right: 781px;
+        padding: 30px;
+        margin-left: -900px;
+    }
+    
+    
+    /* education css part */
+    .thr{
+        height: 54vh;
+        background-color: white;
+        margin-top: -70px;
+    }
+    
+    .main-text3{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.4rem;
+        font-weight: 400;
+        font-family: Coolvetica_b,Helvetica,sans-serif;
+    }
+    
+    .edu{
+        margin: 50px;
+        padding: 10px;
+        width: 800px;
+        margin-top: 70px;
+    
+    }
+    
+    .edu-text{
+        margin-top: 75px;
+        margin-right: 781px;
+        margin-left: -300px;
+    }
+    
+    /* software css */
+    
+    .fou{
+        height: 40vh;
+        background-color: white;
+        margin-top: -70px;
+    }
+    
+    .main-text4{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.4rem;
+        font-weight: 400;
+        font-family: Coolvetica_b,Helvetica,sans-serif;
+    }
+    
+    .sof{
+        margin: 50px;
+        padding: 10px;
+        width: 800px;
+        margin-top: 70px;
+    
+    }
+    
+    .sof-text{
+        margin-top: 75px;
+        margin-right: 880px;
+        margin-left: -700px;
+    }
+    
+    /* hobbi css */
+    
+    .fiv{
+        height: 40vh;
+        background-color: white;
+        margin-top: -70px;
+    }
+    
+    .main-text5{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.4rem;
+        font-weight: 400;
+        font-family: Coolvetica_b,Helvetica,sans-serif;
+    }
+    
+    .hob{
+        margin: 50px;
+        padding: 10px;
+        width: 800px;
+        margin-top: 70px;
+    
+    }
+    
+    .hob-text{
+        margin-top: 75px;
+        margin-right: 735px;
+        margin-left: -700px;
+    }
+    
+    /* this is footer css pART */
+    
+    footer{
+        background-color: black;
+        color: #ffff;
+        height: 50vh;
+        font-family: Coolvetica_b,Helvetica,sans-serif;
+    }
+    
+    .fot{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .right{
+        display: flex;
+        justify-content: space-around;
+        padding:50px;
+        margin-left: 200px;
+        
+    }
+    
+    .socil{
+        padding: 20px;
+        margin-right: 200px;
+    }
+    .socil p{
+        font-size: 1.3rem;
+        color: gray;
+    }
+    .socil ul{
+        margin-top: 20px;
+    }
+    .socil li{
+        list-style: none;
+        margin-top: 10px;
+    }
+    footer li:hover{
+        color: aqua;
+    }
+    
+    .contact{
+        padding: 20px;
+        margin-right: 200px;
+    }
+    
+    .contact p{
+        font-size: 1.3rem;
+        color: gray;
+    }
+    
+    .contact ul{
+        margin-top: 20px;
+    }
+    .contact li{
+        list-style: none;
+        margin-top: 10px;
+    }
+    
+    .left{
+        margin-top: 80px;
+        margin-left: 60px;
+    }
+    .left p{
+        font-size: 4.3rem;
+        padding: 20px;
+    }
+    
+    .credit{
+        color: gray;
+        margin-top: 50px;
+        align-items: center;
+        text-align: center;
+    }
+ 
+
+} 
+
+/* for mobile ke liye css part */
+
+@media screen and (min-width: 360px) and (max-width: 640px){
+    .left-nav{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 30px;
+        width: 600px;
+    }
+    
+    .left-img img{
+        height: 150px;
+        border-radius: 100px;
+    }
+    
+    .left-text{
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    
+    .small{
+        font-size: 1.4rem;
+    }
+    
+    .big{
+        font-size: 3rem;
+    }
+
+    /* secound part */
+
+    .right-navigation li:hover{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: 1s ease;
+        box-shadow: 10px 10px 5px lightblue;
+    }
+    
+    .right-navigation ul{
+        display: flex;
+        padding: 20px;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    
+    .right-navigation ul li{
+        list-style: none;
+        padding: 20px;
+    }
+    
+    .right-about{
+        justify-content: center;
+       /* text-align: center; */
+       margin-top: 10px;
+       border: 1px solid black;
+       border-radius: 5px;
+       padding: 30px;
+       /* background-image: linear-gradient(to bottom right, rgb(158, 221, 226), rgb(100, 218, 157)); */
+    }
+    /* .right-about:hover{
+        background-image: linear-gradient(to bottom right, rgb(158, 137, 225), rgb(209, 138, 230));
+    } */
+    .right-about p{
+        font-size: 1.2rem;
+    }
+    
+
+    /* frist section for mobile */
+
+    .frist{
+        /* height: 40vh; */
+        background-color: #ffff;
+        
+    }
+    .main-text{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-family: Coolvetica_b,Helvetica,sans-serif;
+    }
+    .about{
+        margin: 30px;
+        padding: 10px;
+        /* width: 800px; */
+        /* margin-top: 100px; */
+    }
+    .about-text{
+        margin-top: 30px;
+        padding: 30px;
+    
+    }
+
+    /* secuond section for mobile */
+
+    .thr{
+        background-color: white;
+    }
+    
+    .main-text3{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-family: Coolvetica_b,Helvetica,sans-serif;
+    }
+    
+    .edu{
+        margin: 30px;
+        padding: 10px;
+    
+    }
+    
+    .edu-text{
+        margin-top: 10px;
+        padding: 30px;
+    }
+    
+
+    /* thread section for mobile  */
+
+    .sec{
+        /* height: 40vh; */
+        background-color: white;
+    }
+    
+    .main-text2{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-family: Coolvetica_b,Helvetica,sans-serif;
+    }
+    
+    .skill{
+        margin: 30px;
+        padding: 10px;
+    }
+    
+    .skill-text{
+        margin-top: 10px;
+        padding: 30px;
+        margin-right: 100px;
+    }
+    
+
+    /* forth section for mobile */
+
+    .fou{
+        background-color: white;
+    }
+    
+    .main-text4{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-family: Coolvetica_b,Helvetica,sans-serif;
+    }
+    
+    .sof{
+        margin: 30px;
+        padding: 10px;
+    
+    }
+    
+    .sof-text{
+        margin-top: 10px;
+        padding: 30px;
+        margin-right: 160px;
+    }
+
+    
+    /* fifth section for mobile */
+
+
+    .fiv{
+        
+        background-color: white;
+       
+    }
+    
+    .main-text5{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-family: Coolvetica_b,Helvetica,sans-serif;
+    }
+    
+    .hob{
+        margin: 30px;
+        padding: 10px;
+    
+    }
+    
+    .hob-text{
+        margin-top: 10px;
+        padding: 30px;
+        margin-right: 35px;
+    }
+    
+
+    /* footer for mobile  */
+
+    footer{
+        background-color: black;
+        color: #ffff;
+        font-family: Coolvetica_b,Helvetica,sans-serif;
+    }
+    
+    .fot{
+        
+        justify-content: space-between;
+    }
+    
+    .right{
+        display: flex;
+        justify-content: space-around;
+        padding:50px;
+        margin-left: 200px;
+        margin-bottom: 30px;
+        
+    }
+    
+    .socil{
+        padding: 20px;
+        margin-right: 200px;
+    }
+    .socil p{
+        font-size: 1.3rem;
+        color: gray;
+    }
+    .socil ul{
+        margin-top: 20px;
+    }
+    .socil li{
+        list-style: none;
+        margin-top: 10px;
+    }
+    footer li:hover{
+        color: aqua;
+    }
+    
+    .contact{
+        padding: 20px;
+        margin-right: 200px;
+    }
+    
+    .contact p{
+        font-size: 1.3rem;
+        color: gray;
+    }
+    
+    .contact ul{
+        margin-top: 20px;
+    }
+    .contact li{
+        list-style: none;
+        margin-top: 10px;
+    }
+    
+    .left{
+        margin-top: 80px;
+        text-align: center;
+    }
+    .left p{
+        font-size: 4.3rem;
+        padding: 20px;
+    }
+    
+    .credit{
+        color: gray;
+        align-items: center;
+        text-align: center;
+    }
+
+
+}
+
